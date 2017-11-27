@@ -1,0 +1,51 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-08 19:48:13
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-10 18:16:42
+*/
+*,
+::before,
+::after {
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: '微软雅黑'，sans-serif;
+}
+input {
+	border: none;
+	-webkit-appearance: none;
+}
+a {
+	text-decoration: none;
+}
+ol,ul {
+	list-style: none;
+}
+.f_l {
+	float: left;
+}
+.f_r {
+	float: right;
+}
+.clearfix::before,
+.clearfix::after {
+	content: '';
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.b_r {
+	border-right: 1px solid #eee;
+}
+.b_b {
+	border-bottom: 1px solid #eee;
+}
+.b_l {
+	border-left: 1px solid #eee;
+}
